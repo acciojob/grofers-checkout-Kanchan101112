@@ -31,7 +31,7 @@ const getSum = () => {
 
     // Create a new row for total
     let newRow = document.createElement("tr");
-    newRow.id = "totalRow";
+    newRow.id = "ans";
     let newCell = document.createElement("td");
     newCell.colSpan = 2; // Adjust according to the number of columns in your table
     newCell.textContent = "Total Price: " + total.toFixed(2);
